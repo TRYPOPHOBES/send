@@ -1,0 +1,21 @@
+{
+    "name": "examples",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "polling": "bun run polling.ts",
+        "webhook": "bun run webhook.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@types/express": "^5.0.3",
+        "express": "^5.1.0",
+        "fastify": "^5.4.0",
+        "grammy": "^1.36.3"
+    }
+}
